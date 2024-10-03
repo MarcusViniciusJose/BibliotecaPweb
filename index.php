@@ -12,7 +12,7 @@ $classe = isset($_GET["classe"])?$_GET["classe"]:"";
         <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
         <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">        
-        <script src="javascript<?php echo $classe; ?>.js"></script>
+        <script src="js/javascript<?php echo $classe; ?>.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-inverse">
