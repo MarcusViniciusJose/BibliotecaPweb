@@ -3,7 +3,7 @@ include 'conexao.php';
 
 header('content-type: application/json');
 
-$sql = "INSERT INTO categoria(descricao, tempo, valMulta) VALUES ('".$_POST['descricao']."' ,". $_POST['tempo'].",". $_POST['valMulta'].")";
+$sql = "INSERT INTO categoria(descricao, tempo, valMulta) VALUES ('".$_POST['descricao']."' ,'". $_POST['tempo']."','". $_POST['valMulta']."')";
 
 if($conn->query($sql) === true){
     $msg = "Categoria criada com sucesso!";

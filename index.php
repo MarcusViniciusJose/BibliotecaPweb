@@ -59,7 +59,7 @@ $classe = isset($_GET["classe"])?$_GET["classe"]:"";
                             <h4 class="modal-title" id="myModalLabel">Criar <?php echo $classe; ?></h4>
                         </div>
                         <div class="modal-body">
-                            <form data-toggle="validator" action="insert<?php echo $classe; ?>.php" method="POST">
+                            <form data-toggle="validator" action="./Class/insert<?php echo $classe; ?>.php" method="POST">
 
                             </form>
                         </div>
@@ -75,7 +75,7 @@ $classe = isset($_GET["classe"])?$_GET["classe"]:"";
                             <h4 class="modal-title" id="myModalLabel">Editar <?php echo $classe; ?></h4>
                         </div>
                         <div class="modal-body">
-                            <form data-toggle="validator" action="update<?php echo $classe; ?>.php" method="POST">
+                            <form data-toggle="validator" action="./Class/update<?php echo $classe; ?>.php" method="POST">
                             </form>
                         </div>
                     </div>
